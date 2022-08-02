@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+}
+
 *,
 *::before,
 *::after {
@@ -164,6 +168,17 @@ body {
 
 .hero {
     width: 100%;
+
+}
+.hero__heading {
+    margin-bottom: 1rem;
+}
+
+.hero__image {
+    height: 50%;
+    width: 50%;
+    align-self: center;
+    justify-self: flex-end;
 }
 
 /* grid */
