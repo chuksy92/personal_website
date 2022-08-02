@@ -192,3 +192,16 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/* Block */
+
+.block {
+    --padding-vertical: 5rem;
+    padding: var(--padding-vertical) 3rem;
+    /* border: 1px solid tomato; */
+}
+
+.block--container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
