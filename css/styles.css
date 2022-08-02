@@ -150,3 +150,18 @@ body {
         opacity: 1;
     }
 }
+
+/* .line {
+    width: 50vw;
+    height: 0.1rem;
+    background: rgb(237, 241, 235);
+    margin-top: 5rem;
+} */
+
+
+/* Hero */
+
+
+.hero {
+    width: 100%;
+}
