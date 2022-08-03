@@ -323,9 +323,7 @@ body {
 
 
 /* footer */
-.footer {
 
-}
 
 .footer__image img {
     width: 100px;
@@ -333,10 +331,7 @@ body {
     margin: 0 auto;
 }
 
-.footer__container {
-    /* display: flex;
-    justify-content: space-around; */
-}
+
 
 .footer__container span {
     width: 30px;
