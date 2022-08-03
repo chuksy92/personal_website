@@ -6,6 +6,10 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Hi I'm Chukky, A software developer and a problem solver, Let's connect &#128526; "
+		/>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -15,11 +19,121 @@
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/styles.css" />
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-		<title>Document</title>
+		<title>Chukky_Udemezue | Personal website</title>
 	</head>
 	<body>
+		<header class="block block--container" data-aos="fade-right">
+			<nav class="nav collapsible">
+				<a href="/"><h2 class="nav__heading">Chukky_ Udemezue</h2></a>
+				<svg class="icon icon--white nav__toggler">
+					<use xlink:href="images/site-sprite.svg#chevron"></use>
+				</svg>
+				<ul class="list nav__list collapsible__content">
+					<li class="nav__item"><a href="/portfolio.html">Portfolio</a></li>
+					<li class="nav__item"><a href="">About me</a></li>
+					<li class="nav__item"><a href="">Connect</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section
+				class="block block--container hero"
+				class="block block--container quote"
+				data-aos="fade-right"
+				data-aos-easing="ease-in-out"
+				data-aos-offset="0"
+				data-aos-delay="50"
+				data-aos-duration="1000"
+			>
+				<h1 class="hero__heading">
+					<span>&#128587;&#127998;</span> <br />
+					Hi, I’m Chukky. I’ve been working on driving usage of public
+					blockchain networks since 2017.
+				</h1>
+				<div class="grid grid--1x2">
+					<p class="hero__content">
+						Structure. If you know where to exert force, you can move
+						mountains.<br />
+						I spend most of my day deeply immersed in emerging technologies —
+						and have been focused on crypto since 2016. I currently serve as the
+						CTO @ Blockchain Hub Africa — where we build Web3 infrastructure
+						that supports many leading blockchain networks, DeFi protocols, NFT
+						marketplaces, and DAOs. Outside of my work at Blockchain Hub Africa,
+						I participate broadly in Web3 and enjoy teaching others how to get
+						started on down the blockchain rabbit hole ⬜⛓️🐰🕳️ .
+					</p>
+					<image class="hero__image" src="images/chukky.jpg" />
+				</div>
+			</section>
+			<section
+				class="block block--container quote"
+				data-aos="slide-left"
+				data-aos-easing="ease-in-out"
+				data-aos-offset="200"
+				data-aos-delay="50"
+				data-aos-duration="1000"
+			>
+				<h2>What people are saying:</h2>
+				<div class="grid grid--1x2 slider">
+					<img
+						class="quote__image"
+						src="images/image.jpg"
+						alt="logo"
+						class="block__img"
+					/>
 
+					<blockquote class="quote__content">
+						<p class="quote__text">
+							“Chukky is sharp, driven, and energetic. In the face of ambiguity
+							and pressure, he is endlessly positive and brings those he works
+							with up when the environment can be pulling a team down. Chukky’s
+							empathy and open-minded approach made him a joy to work with—he
+							has a lot of creativity and brilliant ideas but listens to his
+							teammate’s ideas equally without ego.”
+						</p>
+						<footer>
+							<cite class="quote__author">
+								<span class="quote__author-name">Uche Edeoga</span>
+								<span class="quote__author-title">CEO, Blockchain Hub Africa</span>
+							</cite>
+						</footer>
+					</blockquote>
+				</div>
+			</section>
+		</main>
+		<footer
+			class="block block--container footer"
+			class="block block--container quote"
+			data-aos="fade-up"
+			data-aos-easing="ease-in-out"
+			data-aos-offset="100"
+			data-aos-delay="50"
+			data-aos-duration="1000"
+		>
+			<div class="footer__container grid grid--1x2">
+				<h3>Get In Touch:</h3>
+				<span
+					><a href="mailto:chukkyc582@gmail.com"
+						><img src="images/email.svg" alt="" /></a
+				></span>
+			</div>
+
+			<div class="footer__image">
+				<img
+					class=""
+					src="https://seanoconn.org/wp-content/uploads/2020/05/2Asset-1@1x.png"
+				/>
+			</div>
+
+			<span class="copyright"
+				>© 2020 Chukky Udemezue. All rights reserved.</span
+			>
+		</footer>
 
 		<script src="js/main.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>
