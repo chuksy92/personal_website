@@ -146,6 +146,10 @@ body {
     border-bottom: 1px solid var(--color-border);
 }
 
+.nav img {
+    width: 20%;
+}
+
 .nav__heading{
     font-size: 2rem;
 }
